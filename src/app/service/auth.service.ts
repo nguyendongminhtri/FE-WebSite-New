@@ -13,7 +13,8 @@ export class AuthService {
   //API LOCAL
   // private API_REGISTER = environment.API_LOCAL + 'signup';
   // private API_SIGNIN = environment.API_LOCAL + 'signin';
-  //API SERVER
+  //API SERVER FIX PHIEN BAN
+
   private API_REGISTER = environment.API_SERVER + 'signup';
   private API_SIGNIN = environment.API_SERVER + 'signin';
   constructor(private httpClient: HttpClient) {
